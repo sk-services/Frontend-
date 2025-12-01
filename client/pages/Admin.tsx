@@ -18,8 +18,8 @@ export default function Admin() {
   const location = useLocation();
 
   // Secure admin access - unique URL pattern that's hard to guess
-  const adminPath = '/sk-admin-2025-secure';
-  const correctPassword = 'SKCleaning2025!'; // Change this to a secure password
+  const adminPath = '/SEVA-MANTRA-admin-2025-secure';
+  const correctPassword = 'SevaMantra@2025!'; // Change this to a secure password
 
   useEffect(() => {
     // Check if user is on the correct admin path
